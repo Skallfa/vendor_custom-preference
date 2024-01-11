@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blackiron.settings.preferences;
+package com.android.settings.custom.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
