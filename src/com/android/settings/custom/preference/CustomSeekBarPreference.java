@@ -26,7 +26,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.preference.*;
 
-import com.android.settings.R;
+import com.android.settings.custom.R;
 
 public class CustomSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     private final String TAG = getClass().getName();
@@ -81,7 +81,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mSeekBar = new SeekBar(context, attrs);
         mSeekBar.setMax(mMax - mMin);
         mSeekBar.setOnSeekBarChangeListener(this);
-        setLayoutResource(R.layout.preference_blackiron_seekbar);
+        setLayoutResource(R.layout.preference_custom_seekbar);
     }
 
     public CustomSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr) {
