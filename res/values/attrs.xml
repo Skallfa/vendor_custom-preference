@@ -49,4 +49,16 @@
     <declare-styleable name="SystemSettingListPreference">
         <attr name="dependentValue" format="string"/>
     </declare-styleable>
+
+     <!-- Value to pass to callback when restore button is pressed -->
+    <declare-styleable name="ColorPreference">
+        <attr name="defaultColorValue" format="integer" />
+    </declare-styleable>
+
+     <!-- ColorPicker -->
+    <declare-styleable name="ColorPickPref">
+        <attr name="alphaSlider" format="boolean" />
+        <attr name="alphaText" format="boolean" />
+        <attr name="colorgroupname" format="string" />
+    </declare-styleable>
 </resources>
